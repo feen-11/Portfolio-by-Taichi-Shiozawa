@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+html {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+  letter-spacing: 0.1em;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+ }
+
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+figure {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,li,dl,dt,dd {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a { 
+  text-decoration: none; 
+  transition: all .6s ease;
+}
+
+a:hover { 
+  transition: all .6s ease;
+}
+
+.content-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+
+
+
+/* login.php */
+.login-php, .signup-php{
+  margin: 60px auto;
+}
+
+
+
+/* /login.php/title */
+/* signup/.php/title */
+.title h2{
+  border-bottom: 1px solid #E8F0FE;
+  padding: 10px 0px;
+}
+
+.title p{
+  padding: 10px 0px;
+}
+
+
+/* login.php/login-form */
+
+.login-form{
+  text-align: center;
+  border: 1px solid #E8F0FE;
+  padding: 40px 10px;
+}
+.signup-link{
+  text-align: center;
+}
+
+.login-form h3{
+  margin-bottom: 20px;
+}
+
+.login-form .email, .login-form .password{
+  margin-bottom: 20px;
+}
+
+.login-btn{
+  margin-bottom: 10px; 
+}
+
+/* signup.php */
+
+/* signup/signup-form */
+
+.signup-form {
+  border: 1px solid #E8F0FE;
+  padding: 30px 0;
+}
+
+.signup-form h2{
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.signup-form .row{
+  margin: 20px 0px;
+}
+
+.signup-form .btn{
+  margin-bottom: 10px;
+}
+
+/* index.php */
+
+/* index.php/header */
+
+.header .container{
+  height: 120px;
+  border-bottom: 1px solid #E8F0FE;
+}
+
+
+
+/* index.php/main */
+
+.index main h2{
+  margin-top: 40px;
+}
+
+.post-create textarea{
+  margin-top: 40px;
+  height: 150px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.post-create .btn{
+  float: right;
+}
+
+.post-create .btn{
+  margin-top: 20px;
+} 
+
+/* index.php/main/post-read */
+.post-read{
+  margin-top: 120px;
+  border-top:  1px solid #E8F0FE;
+}
+
+.posts{
+  border-bottom: 1px solid #000;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* show.php */
+
+.show-post{
+  margin: 40px auto; 
+}
+
+.show-post .container{
+  border:  1px solid #E8F0FE;
+  padding: 20px;
+}
+
+.user-name , .created , .updated{
+  color: #707070;
+}
+
+.body{
+  font-size: 1.5em;
+}
+
+.edit-post{
+  margin-bottom: 60px;
+}
+
+.edit-post .container{
+  border:  1px solid #E8F0FE;
+  padding: 40px;
+}
+
+.edit-post .btn{
+  margin: 20px 20px 0 20px;
+}
+
+/* userShow */
+
+.user-info{
+  margin: 40px 0;
+  padding: 30px;
+  border: 1px solid #E8F0FE;
+}
+
+.user-show h2{
+  border-bottom: 1px solid #E8F0FE;
+  padding-bottom: 10px;
+}
+
+.user-info-show{
+  margin: 20px;
+}
+
+.user-post .post{
+  border-bottom: 1px solid #E8F0FE;
+  padding: 20px;
+}
+
+
+.user-post .body{
+  font-size: 1.5em;
+}
+
+/* userEdit */
+
+.user-edit{
+  margin: 60px;
+}
+
+.user-edit-form{
+  padding: 60px 0;
+  border: 1px solid #E8F0FE;
+}
+
+.user-name-edit, .user-email-edit{
+  margin: 20px 0;
+}
+
+.user-edit .btn{
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
